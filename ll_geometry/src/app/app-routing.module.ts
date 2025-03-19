@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ThreejsExampleComponent } from './threejs-example/threejs-example.component';
 
 const routes: Routes = [
-  {path:'',component:ThreejsExampleComponent},
+  {path:'three',component:ThreejsExampleComponent},
 ];
 
 @NgModule({
