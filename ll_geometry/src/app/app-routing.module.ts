@@ -1,8 +1,9 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SvgCircleComponent } from './svg-circle/svg-circle.component';
+import { ThreejsExampleComponent } from './threejs-example/threejs-example.component';
+
 const routes: Routes = [
-  {path: '', component:SvgCircleComponent}    
+  {path:'',component:ThreejsExampleComponent},
 ];
 
 @NgModule({
@@ -10,5 +11,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule {
-
+  
  }

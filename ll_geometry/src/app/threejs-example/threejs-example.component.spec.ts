@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SvgCircleComponent } from './svg-circle.component';
+import { ThreejsExampleComponent } from './threejs-example.component';
 
-describe('SvgCircleComponent', () => {
-  let component: SvgCircleComponent;
-  let fixture: ComponentFixture<SvgCircleComponent>;
+describe('ThreejsExampleComponent', () => {
+  let component: ThreejsExampleComponent;
+  let fixture: ComponentFixture<ThreejsExampleComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ SvgCircleComponent ]
+      declarations: [ ThreejsExampleComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SvgCircleComponent);
+    fixture = TestBed.createComponent(ThreejsExampleComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
